@@ -1,0 +1,17 @@
+<<<<<<< HEAD
+version: "3.8"
+
+services:
+  web:
+    build: .
+    image: devops-build:latest
+    ports:
+      - "80:80"
+    restart: always
+=======
+services:
+  web:
+    build: .
+    ports:
+      - "8080:80"
+>>>>>>> efa2199 (Add project files with gitignore & dockerignore)
